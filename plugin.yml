@@ -1,0 +1,9 @@
+name: SimpleSignEditor
+main: org.devinprogress.SimpleSignEditor.SimpleSignEditor
+version: 1
+commands:
+   editsign:
+      description: A command to edit signs
+      usage: /editsign [Line] [Text]
+      permission: SimpleSignEditor.editign
+      permission-message: You don't have SimpleSignEditor.editsign
